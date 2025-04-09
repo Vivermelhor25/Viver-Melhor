@@ -1,55 +1,132 @@
-
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Desafio 7 Dias Integradiva</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Desafio INTEGRADIVA - 7 Dias para Viver Melhor</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap">
   <style>
-    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f2f8f4; color: #333; }
-    .container { max-width: 800px; margin: auto; padding: 20px; }
-    h1 { color: #1f9058; font-size: 2.2em; text-align: center; }
-    h2 { color: #1f9058; font-size: 1.5em; }
-    p { line-height: 1.6em; }
-    .highlight { background: #d9f4e7; padding: 10px; border-left: 4px solid #1f9058; margin: 20px 0; }
-    .cta-button { display: block; width: 100%; background: #1f9058; color: #fff; text-align: center; padding: 15px; text-decoration: none; font-weight: bold; border-radius: 8px; margin: 30px 0; }
-    .bonus { background: #fffbe7; padding: 10px; border-left: 4px solid #ffd700; margin-top: 20px; }
+    body {
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fff;
+      color: #333;
+      line-height: 1.6;
+    }
+    .hero {
+      text-align: center;
+      padding: 3rem 1rem;
+      background: linear-gradient(135deg, #f3e7e9 0%, #e3eeff 100%);
+    }
+    .hero img {
+      max-width: 200px;
+      border-radius: 12px;
+    }
+    .hero h1 {
+      font-size: 2rem;
+      margin-top: 1rem;
+      color: #0a3d62;
+    }
+    .hero p {
+      font-size: 1.2rem;
+      margin-top: 1rem;
+    }
+    .btn {
+      background: #0a3d62;
+      color: #fff;
+      padding: 1rem 2rem;
+      border: none;
+      border-radius: 8px;
+      font-size: 1.2rem;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-block;
+      margin-top: 2rem;
+    }
+    .depoimentos, .bonus, .faq, .timer {
+      padding: 2rem;
+      max-width: 800px;
+      margin: auto;
+    }
+    .depoimentos h2, .bonus h2, .faq h2, .timer h2 {
+      text-align: center;
+      color: #0a3d62;
+    }
+    .depoimentos p, .bonus p, .faq p {
+      margin-bottom: 1.5rem;
+    }
+    .footer {
+      background-color: #0a3d62;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
   </style>
 </head>
+
 <body>
-  <div class="container">
-    <h1>Desafio 7 Dias Integradiva</h1>
-    <p>Descubra como desinchar, desintoxicar e despertar sua melhor versão em apenas 7 dias com Cláudia Reis, esteticista integrativa com mais de 7 anos de experiência.</p>
+  <section class="hero">
+    <img src="WhatsApp%20Image%202025-04-09%20at%2016.56.30.jpeg" alt="Cláudia Reis">
+    <h1>Desafio INTEGRADIVA: 7 Dias Para Viver Melhor</h1>
+    <p>Com a Cláudia Reis, esteticista integrativa com mais de 7 anos de experiência. Resultados reais com dicas simples e eficazes para cuidar do seu corpo e bem-estar.</p>
+    <a class="btn" href="https://pagseguro.uol.com.br/v2/checkout/payment.html?email=anunciart20@gmail.com" target="_blank">Participar agora por apenas R$9,90</a>
+  </section>
 
-    <div class="highlight">
-      <strong>Você vai aprender:</strong>
-      <ul>
-        <li>Como eliminar até 4kg em uma semana</li>
-        <li>Reduzir o inchaço, melhorar a digestão e controlar a ansiedade</li>
-        <li>Dicas práticas e reais que funcionam mesmo para quem tem rotina corrida</li>
-      </ul>
-    </div>
+  <section class="timer">
+    <h2>Corra! As vagas são limitadas!</h2>
+    <p>O próximo grupo começa em:</p>
+    <div id="countdown" style="font-size: 1.5rem; font-weight: bold; text-align: center; color: #c0392b;"></div>
+  </section>
 
-    <h2>O que você vai receber:</h2>
-    <ul>
-      <li>PDF completo com o plano de 7 dias</li>
-      <li>Receitas anti-inchaço e cardápios funcionais</li>
-      <li>Grupo de suporte no WhatsApp</li>
-      <li>Lives exclusivas com Cláudia Reis</li>
-    </ul>
+  <section class="depoimentos">
+    <h2>Depoimentos de Quem Já Participou</h2>
+    <p>"Em apenas 3 dias já vi diferença na minha disposição e autoestima! Gratidão, Cláudia." - <strong>Maria S.</strong></p>
+    <p>"Achei que era mais um curso, mas é uma experiência transformadora! Super recomendo." - <strong>Joana M.</strong></p>
+    <p>"A simplicidade das dicas me surpreendeu. Resultado real e sem complicações." - <strong>Patrícia L.</strong></p>
+  </section>
 
-    <div class="bonus">
-      <strong>Bônus exclusivo:</strong>
-      <ul>
-        <li>Receita da água anti-inchaço</li>
-        <li>Protocolo de auto-massagem desintoxicante</li>
-      </ul>
-    </div>
+  <section class="bonus">
+    <h2>Bônus Exclusivos para Alunos</h2>
+    <p>🎁 E-book exclusivo com receitas detox.</p>
+    <p>🎁 Acesso a um grupo fechado com suporte da Cláudia.</p>
+    <p>🎁 Acompanhamento com dicas diárias pelo WhatsApp.</p>
+  </section>
 
-    <h2>De R$197 por apenas R$67!</h2>
-    <a href="#" class="cta-button">QUERO PARTICIPAR DO DESAFIO!</a>
+  <section class="faq">
+    <h2>Perguntas Frequentes</h2>
+    <p><strong>Como recebo o acesso?</strong> Após o pagamento, você receberá um link no e-mail cadastrado com todas as instruções.</p>
+    <p><strong>Funciona mesmo?</strong> Sim! Todas as dicas são testadas e aprovadas por centenas de mulheres.</p>
+    <p><strong>Preciso de equipamentos?</strong> Não. Tudo pode ser feito com o que você tem em casa.</p>
+  </section>
 
-    <p><em>“Você não precisa se punir para transformar seu corpo. Precisa apenas começar a cuidar de você, com carinho e consciência. Vamos juntas?”</em></p>
+  <div class="footer">
+    <p>&copy; 2025 INTEGRADIVA | Desenvolvido para transformar vidas com beleza e bem-estar.</p>
   </div>
+
+  <script>
+    const countdown = document.getElementById('countdown');
+    const endDate = new Date();
+    endDate.setDate(endDate.getDate() + 2);
+
+    function updateCountdown() {
+      const now = new Date();
+      const diff = endDate - now;
+      if (diff <= 0) {
+        countdown.innerText = "Inscrições Encerradas";
+        return;
+      }
+      const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+      const hours = Math.floor((diff / (1000 * 60 * 60)) % 24);
+      const minutes = Math.floor((diff / (1000 * 60)) % 60);
+      const seconds = Math.floor((diff / 1000) % 60);
+      countdown.innerText = `${days}d ${hours}h ${minutes}m ${seconds}s`;
+    }
+
+    setInterval(updateCountdown, 1000);
+    updateCountdown();
+  </script>
 </body>
+
 </html>
